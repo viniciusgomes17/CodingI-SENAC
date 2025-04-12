@@ -1,4 +1,6 @@
-//concatenação de string         1º questão
+/*1º questão 
+Declare uma variável chamada nome e atribua o seu nome a ela.
+Declare uma variável chamada idade e atribua a sua idade a ela.*/
 
 var nome = "carol"; 
 var idade = "25";
@@ -7,7 +9,9 @@ console.log (`ola! Meu nome é ${nome}, e tenho ${idade} anos.`)
 
 
 
-//  2º questão 
+/*2º questão
+Declare uma variável para nome e para cidade
+Armazene as informações do tipo String em variáveis e imprima uma mensagem*/
 
 let nome = "vinicius";
 let cidade = "londres";
@@ -16,7 +20,9 @@ console.log (nome + " é de " + cidade + ".");
 
 
 
-//   3ª questão
+/*3ª questão
+Declare duas variáveis numéricas: num1 e num2.
+Realize as quatro operações básicas(+, -, *, /), e imprima os resultados.*/
 
 let num1 = 80;
 let num2 = 100;
@@ -27,7 +33,11 @@ console.log (num1 / num2);
 
 
 
-// 4ª  questão 
+/*4ª questão 
+Declare duas variáveis numéricas: base e altura.
+Armazene nas variáveis a base e a altura de um triângulo.
+Calcule a área e exiba o resultado.
+Exemplo: “A área do triângulo é _______”.*/
 
 let base = 12;
 let altura = 70;
@@ -36,7 +46,12 @@ console.log (`A área do triângulo é ${(base * altura) / 2}`);
 
 
 
-//       5ª Questão
+/*5ª Questão
+Declare variáveis para inserir 3 notas de um aluno.
+Crie uma nova variável chamada media, nela deve conter o cálculo da média das 3
+notas.
+Exiba o resultado da média, informado a nota final.
+Exemplo: “O resultado da média é __________’”.*/
 
 const prompt = require('prompt-sync')({sigint:true});
 
@@ -51,7 +66,9 @@ console.log (`sua média é... ${resultado}.`);
 
 
 
-// 6º questão
+/*6º questão
+Crie um programa que calcule o valor final de um produto com desconto.
+As variáveis devem informar o preço original e o percentual de desconto.*/
 
 let preco_original = 300;
 let desconto = 10;
@@ -61,8 +78,11 @@ console.log (`O preço original era R$ ${preco_original}, com o desconto de ${de
 
 
 
-//      7º questão 
-                /*Até R$ 1.500: Isento
+/*7º questão Simule um cálculo simplificado de imposto de renda, considerando uma tabela de
+alíquotas.
+A variável deve informar o salário bruto.
+Exiba o resultado com uma mensagem personalizada.
+                *Até R$ 1.500: Isento
                 * De R$ 1.501 até R$ 3.000: 10%
                 * De R$ 3.001 até R$ 5.000: 15%
                 *    Acima de R$ 5.000: 20%*/
@@ -87,9 +107,10 @@ imposto = (salario_bruto * aliquota) / 100;
 
 
  
- //                    8º questão
-
- // 1 USD Dólar americano = Real brasileiro  5,43 BRL
+ /*8º questão
+Crie um conversor de moedas, considerando taxas de câmbio atualizadas.
+As variáveis devem guardar o valor das moedas inicial e final.
+1 USD Dólar americano = Real brasileiro  5,43 BRL*/
 
 /let valor_inicial = 3000;
  let taxa_cambio = 5.43;
@@ -99,7 +120,10 @@ imposto = (salario_bruto * aliquota) / 100;
 
 
 
- //     9º questão
+ /*9º questão
+Crie uma variável para a temperatura em Celsius e faça a conversão para
+Fahrenheit usando a fórmula (Celsius * 9/5) + 32.*/
+
 
  let celsius = 50;
  let conversao = (celsius * 9/5) + 32;
@@ -107,7 +131,9 @@ imposto = (salario_bruto * aliquota) / 100;
 
 
 
- //    10º questão
+ /*   10º questão
+Crie variáveis para peso (em kg) e altura (em metros).
+Calcule o IMC utilizando a fórmula: IMC = peso / (altura * altura).*/
 
  let peso = 70;
  let altura = 1.73;
